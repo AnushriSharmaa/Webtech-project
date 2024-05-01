@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kid's Wear</title>
+    <style>
+       
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #bdafafd7;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center; 
+        }
+
+        .gallery img {
+            width: 400px;
+            height:450px;
+            margin: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .buy-now {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 14px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        .buy-now:hover {
+            background-color: #000000;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        
+        .banner {
+            background-color: #ffcc00;
+            background-image: url('https://manage.babycouture.in/public/banners/banner_1631167643.jpg');
+
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 200px;
+        }
+
+        .banner img {
+            width: 80px;
+            height:30px;
+
+            
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Kid's Wear</h1>
+    <nav>
+        <ul>
+            <li><a href="#shirts">Shirts</a></li>
+            <li><a href="#hoodies">Hoodies</a></li>
+            <li><a href="#pants">Pants</a></li>
+            <li><a href="#dresses">Dresses</a></li>
+            
+        </ul>
+    </nav>
+</header>
+
+
+<div class="banner">
+    
+  
+</div>
+
+<input type="text" id="filterInput" placeholder="Search for your choice..." style="margin: 20px auto; display: block; width: 80%; padding: 10px; border-radius: 5px;">
+
+
+<section id="shirts">
+    <h2>Shirts</h2>
+    <div class="gallery shirts">
+        <div>
+            <img src="https://rukminim2.flixcart.com/image/550/650/xif0q/shirt/3/s/e/11-12-years-lycra-kids-shirt-cresale-original-imagyr85jney4fuf.jpeg?q=90&crop=false" alt="Shirt 1">
+            <p>$50</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/61XF9ONsIYL._AC_UY1100_.jpg" alt="Shirt 2">
+            <p>$45</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+        <div>
+            <img src="https://1099554485.rsc.cdn77.org/upload/products/medium/blazo_plain_brown_cotton_casual_shirt_1675944586s2242_1f(cadbur).jpg" alt="Shirt 3">
+            <p>$55</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+    </div>
+</section>
+
+<section id="hoodies">
+    <h2>Hoodies</h2>
+    <div class="gallery hoodies">
+        <div>
+            <img src="https://rukminim2.flixcart.com/image/550/650/xif0q/kids-t-shirt/5/y/q/2-3-years-jfh-1002-supersquad-original-imaghsce9jumrs59.jpeg?q=90&crop=true" alt="hoodie 1">
+            <p>$60</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+        <div>
+            <img src="https://www.fourkids.com/cdn/shop/files/27-031_aa8461b6-a216-48c2-a7d5-f99747e3d964.png?v=1696251298&width=900" alt="hoodie 2">
+            <p>$65</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+        <div>
+            <img src="https://www.jiomart.com/images/product/original/rvwpuktqkv/zewa-fashion-hub-mom-store-winter-jackets-for-kids-cute-sweatshirt-and-cool-hoodies-for-baby-boy-and-baby-girls-cotton-with-zippers-hoodie-cap-product-images-rvwpuktqkv-0-202310140931.jpg?im=Resize=(1000,1000)" alt="hoodie 3">
+            <p>$70</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+    </div>
+</section>
+
+<section id="pants">
+    <h2>Pants</h2>
+    <div class="gallery pants">
+        <div>
+            <img src="https://static.fibre2fashion.com/MemberResources/LeadResources/1/2018/9/Seller/18154042/Images/18154042_0_kids-pants.jpeg" alt="Pant 1">
+            <p>$60</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+        <div>
+            <img src="https://www.mumkins.in/cdn/shop/products/boys-jeans-pant-bl066083-black-1.jpg?v=1645783215" alt="Pant 2">
+            <p>$65</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+        <div>
+            <img src="https://i.pinimg.com/736x/06/4f/fc/064ffcfe7f7cf8d10df344d9e8357e62.jpg" alt="Pant 3">
+            <p>$70</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+    </div>
+</section>
+<section id="dresses">
+    <h2>Dresses</h2>
+    <div class="gallery dresses">
+        <div>
+            <img src="https://i.pinimg.com/736x/b2/60/e5/b260e5971a8cb61e6bae131fd13fca49.jpg" alt="Dress 1">
+            <p>$60</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+        <div>
+            <img src="https://sc04.alicdn.com/kf/Hb486ab766b274869af0f8030ce2bcfc85.jpg" alt="Dress 2">
+            <p>$65</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/61sUiTaXEYL._AC_AC_SY350_QL65_DpWeblab_.jpg" alt="Dress 3">
+            <p>$70</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+    </div>
+</section>
+
+
+
+       
+    
+<footer>
+    <p>&copy; 2024 Kid's Wear</p>
+</footer>
+
+<script>
+    function buyNow() {
+        alert("The order is Confirmed!");
+    }
+
+    // JavaScript for filtering items
+    document.addEventListener("DOMContentLoaded", function() {
+        const filterInput = document.getElementById('filterInput');
+
+        filterInput.addEventListener('input', function() {
+            filterItems(filterInput.value.toLowerCase());
+        });
+    });
+
+    function filterItems(filterText) {
+        const gallerySections = document.querySelectorAll('section');
+
+        gallerySections.forEach(function(section) {
+            const sectionId = section.id;
+
+            if (sectionId.includes(filterText)) {
+                section.style.display = 'block';
+            } else {
+                section.style.display = 'none';
+            }
+        });
+    }
+</script>
+
+</body> 
+</html>

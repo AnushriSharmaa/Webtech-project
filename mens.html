@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Wear</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #bdafafd7;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center; 
+        }
+
+        .gallery img {
+            width: 400px;
+            height:450px;
+            margin: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .buy-now {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 14px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        .buy-now:hover {
+            background-color: #000000;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        
+        .banner {
+            background-color: #ffcc00;
+            background-image: url('https://brandsego.com/cdn/shop/collections/Screenshot_42.png?v=1696060836');
+
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 200px;
+        }
+
+        .banner img {
+            width: 80px;
+            height:30px;
+
+            
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Men's Wear</h1>
+    <nav>
+        <ul>
+            <li><a href="#shirts">Shirts</a></li>
+            <li><a href="#pants">Pants</a></li>
+            <li><a href="#jackets">Jackets</a></li>
+            <li><a href="#shoes">Shoes</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<div class="banner">
+    
+  
+</div>
+
+<input type="text" id="filterInput" placeholder="Search for your choice..." style="margin: 20px auto; display: block; width: 80%; padding: 10px; border-radius: 5px;">
+
+<section id="shirts">
+    <h2>Shirts</h2>
+    <div class="gallery shirts">
+        <div>
+            <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/19818628/2022/9/6/ec27eee6-d613-4423-8e0f-007aea1603c31662468109188Shirts1.jpg" alt="Shirt 1">
+            <p>$50</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/9680385/2019/8/19/9a71effc-5ca8-4f56-94c0-2c71054102101566218377789-Roadster-Men-Shirts-8021566218376333-1.jpg" alt="Shirt 2">
+            <p>$45</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+        <div>
+            <img src="https://file.images1.mehar.xyz/product_thumbnail1/1695474166-1.jpg" alt="Shirt 3">
+            <p>$55</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+    </div>
+</section>
+
+<section id="pants">
+    <h2>Pants</h2>
+    <div class="gallery pants">
+        <div>
+            <img src="https://i.pinimg.com/736x/01/74/f8/0174f804078a957d793366714621ff45.jpg" alt="Pants 1">
+            <p>$60</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+        <div>
+            <img src="https://5.imimg.com/data5/YS/YF/MY-38598873/mens-formal-pants-500x500.jpg" alt="Pants 2">
+            <p>$65</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+        <div>
+            <img src="https://i.pinimg.com/736x/f0/33/2f/f0332fc200a72291a3fba8de535120e3.jpg" alt="Pants 3">
+            <p>$70</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+    </div>
+</section>
+
+<section id="jackets">
+    <h2>Jackets</h2>
+    <div class="gallery jackets">
+        <div>
+            <img src="https://getketchadmin.getketch.com/product/8905040767963/660/LMJK000767_1.jpg" alt="Jacket 1">
+            <p>$100</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+        <div>
+            <img src="https://www.apetogentleman.com/wp-content/uploads/2019/05/casual-dressing-tips1.jpg" alt="Jacket 2">
+            <p>$110</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+        <div>
+            <img src="https://5.imimg.com/data5/ANDROID/Default/2023/1/TN/HE/IG/8547641/product-jpeg-500x500.jpg" alt="Jacket 3">
+            <p>$120</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+    </div>
+</section>
+
+<section id="shoes">
+    <h2>Shoes</h2>
+    <div class="gallery shoes">
+        <div>
+            <img src="https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/6c0625e9f4c3e7e11b5fc1a4276e1676.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp" alt="Shoes 1">
+            <p>$80</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/28132172/2024/3/8/b4ec3182-0555-4620-b708-b00b8985589e1709901692518RedTapeMenColourblockedPUSneakers1.jpg" alt="Shoes 2">
+            <p>$85</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+        <div>
+            <img src="https://www.jiomart.com/images/product/original/rv9sbmvdsp/peelu-men-s-stylish-trendy-mesh-lace-ups-converse-style-sneakers-white-product-images-rv9sbmvdsp-0-202303251654.jpg?im=Resize=(500,630)" alt="Shoes 3">
+            <p>$90</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Men's Wear</p>
+</footer>
+
+<script>
+    function buyNow() {
+        alert("The order is Confirmed!");
+    }
+
+    
+    document.addEventListener("DOMContentLoaded", function() {
+        const filterInput = document.getElementById('filterInput');
+
+        filterInput.addEventListener('input', function() {
+            filterItems(filterInput.value.toLowerCase());
+        });
+    });
+
+    function filterItems(filterText) {
+        const gallerySections = document.querySelectorAll('section');
+
+        gallerySections.forEach(function(section) {
+            const sectionId = section.id;
+
+            if (sectionId.includes(filterText)) {
+                section.style.display = 'block';
+            } else {
+                section.style.display = 'none';
+            }
+        });
+    }
+</script>
+
+</body> 
+</html>

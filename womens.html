@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Wear</title>
+    <style>
+      
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #bdafafd7;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center; 
+        }
+
+        .gallery img {
+            width: 400px;
+            height:450px;
+            margin: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .buy-now {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 14px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        .buy-now:hover {
+            background-color: #000000;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        
+        .banner {
+            background-color: #ffcc00;
+            background-image: url('https://marketplace.canva.com/EAFVHstxnwk/1/0/1600w/canva-beige-aesthetic-exclusive-fashion-wear-collection-clothing-banner-BZb4KkCdNP0.jpg');
+
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 200px;
+        }
+
+        .banner img {
+            width: 80px;
+            height:30px;
+
+            
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Women's Wear</h1>
+    <nav>
+        <ul>
+            <li><a href="#tops">Tops</a></li>
+            <li><a href="#skirts">Skirts</a></li>
+            <li><a href="#pants">Pants</a></li>
+            
+        </ul>
+    </nav>
+</header>
+
+
+<div class="banner">
+    
+  
+</div>
+
+<input type="text" id="filterInput" placeholder="Search for your choice..." style="margin: 20px auto; display: block; width: 80%; padding: 10px; border-radius: 5px;">
+
+<section id="tops">
+    <h2>tops</h2>
+    <div class="gallery tops">
+        <div>
+            <img src="https://images.meesho.com/images/products/233293860/z4c7s_512.webp" alt="top 1">
+            <p>$50</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+        <div>
+            <img src="https://img3.junaroad.com/uiproducts/19668988/pri_175_p-1680860542.jpg" alt="top 2">
+            <p>$45</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+        <div>
+            <img src="https://images-cdn.ubuy.co.in/6368b22b834e2e39dd2b1916-deerose-women-crop-tops-long-sleeve.jpg" alt="top 3">
+            <p>$55</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+    </div>
+</section>
+
+<section id="skirts">
+    <h2>Skirts</h2>
+    <div class="gallery skirts">
+        <div>
+            <img src="https://images.meesho.com/images/products/379251922/zitnb_512.jpg" alt="skirt 1">
+            <p>$60</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+        <div>
+            <img src="https://images.meesho.com/images/products/357176449/pmrts_256.webp" alt="skirt 2">
+            <p>$65</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+        <div>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/41+MkCKjSbS._SL500_._AC_SL500_.jpg" alt="skirt 3">
+            <p>$70</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+    </div>
+</section>
+
+<section id="pants">
+    <h2>Pants</h2>
+    <div class="gallery pants">
+        <div>
+            <img src="https://assets.ajio.com/medias/sys_master/root/20240407/UbfO/6611a09416fd2c6e6aa1ebb0/-473Wx593H-466373610-brown-MODEL.jpg" alt="Pants 1">
+            <p>$60</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+        <div>
+            <img src="https://5.imimg.com/data5/SELLER/Default/2021/7/DE/FT/OF/1179011/women-cargo-pants-500x500.jpg" alt="Pants 2">
+            <p>$65</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+        <div>
+            <img src="https://images.meesho.com/images/products/324208345/ioimk_512.jpg" alt="Pants 3">
+            <p>$70</p>
+            <button class="buy-now" onclick="buyNow()">Buy Now</button>
+        </div>
+    </div>
+</section>
+
+
+
+       
+    
+<footer>
+    <p>&copy; 2024 Women's Wear</p>
+</footer>
+
+<script>
+    function buyNow() {
+        alert("The order is Confirmed!");
+    }
+
+    
+    document.addEventListener("DOMContentLoaded", function() {
+        const filterInput = document.getElementById('filterInput');
+
+        filterInput.addEventListener('input', function() {
+            filterItems(filterInput.value.toLowerCase());
+        });
+    });
+
+    function filterItems(filterText) {
+        const gallerySections = document.querySelectorAll('section');
+
+        gallerySections.forEach(function(section) {
+            const sectionId = section.id;
+
+            if (sectionId.includes(filterText)) {
+                section.style.display = 'block';
+            } else {
+                section.style.display = 'none';
+            }
+        });
+    }
+</script>
+
+</body> 
+</html>

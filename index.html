@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <style>
+       * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #a0a0aad0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center; 
+        }
+
+        .gallery img {
+            max-width: 300px;
+            margin: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+       
+        .banner {
+      background-color: #c4c7cb;
+      background-image: url('https://img.freepik.com/free-vector/fashion-sale-with-discount-template_23-2148936503.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703289600&semt=ais');
+     
+      background-position: center;
+      color: rgb(20, 6, 6);
+      text-align: center;
+      padding: 150px;
+      margin-bottom: 0px;
+      transition: background-color 0.3s ease; 
+    }
+        
+
+        
+        .discount-offers {
+            background-color: #eee;
+            padding: 20px 0;
+        }
+
+        .discount-offers h2 {
+            margin-bottom: 20px;
+        }
+
+        .discount-offers p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .discount-gallery {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .discount-gallery img {
+            max-width: 350px;
+            height:300px;
+            margin: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .discount-gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        
+        .explore {
+            padding: 50px 0;
+            background-color: #eee;
+            text-align: center;
+        }
+
+        .explore h2 {
+            margin-bottom: 20px;
+        }
+
+        .explore p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .explore img{
+            width: 1200px;
+            height:650px;
+            transition: transform 0.3s ease;
+           margin: 20px;
+           
+        }
+        .explore img:hover{
+            transform: scale(1.1);
+            cursor:pointer;
+        }
+
+    </style>
+</head>
+<body>
+
+    
+    <div class="banner">
+        <p>Get 10% off on your first purchase! Use code: FIRST10</p>
+       
+    </div>
+
+
+    <header>
+        <h1>Fashion Store</h1>
+        <nav>
+            <ul>
+                <li><a href="D:\Anushri webtech\mens.html">Men's Wear</a></li>
+                <li><a href="D:\Anushri webtech\womens.html">Women's Wear</a></li>
+                <li><a href="D:\Anushri webtech\kids.html">Kids' Wear</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section class="discount-offers">
+        <h2>Discount Offers</h2>
+
+        <p>Check out our latest discount offers on men's, women's, and kids' wear.</p>
+        <div class="discount-gallery">
+            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/fashion-sale-facebook-cover-design-template-2e10214ed16ca2db95e8f354bb33aa92_screen.jpg?ts=1634573105" alt="Offer 1">
+            <img src="https://cdn.grabon.in/gograbon/images/web-images/uploads/1616665614714/mens-lifestyle-coupons.jpg" alt="Offer 2">
+            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/summer-fashion-sale-design-template-01cb22cf379bb8f6c19d51f98efdf56e_screen.jpg?ts=1616527722" alt="Offer 3">
+            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/clothing-store-banner-design-template-e7332aaf6402c88cb4623bf8eb6f97e2_screen.jpg?ts=1620867237" alt="Offer 4">
+
+            
+            
+        </div>
+        
+    </section>
+
+  
+    <section class="explore">
+        <h2>Explore More</h2>
+        <p><b>Discover a wide range of fashion products and styles to suit your taste.</b></p>
+        <a href="#explore">
+            <img src="https://uploads-ssl.webflow.com/634079ed752b04616680d017/6341145bc5c730536855ddc0_Shopping%20website.png" alt="Explore More">
+        </a> 
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fashion Store</p>
+    </footer>
+
+</body>
+</html>
